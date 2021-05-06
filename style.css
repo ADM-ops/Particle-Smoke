@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background: black;
+}
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px; 
+    height: 450px;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
